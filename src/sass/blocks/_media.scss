@@ -8,6 +8,31 @@
     .advantages__wrapper{
         justify-content:space-around;
     }
+    .title_left{
+        margin-left:20px;
+    }
+    .consultation__descr{
+        margin-left: 20px;
+    }
+    .feed-form{
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+    .carousel {
+        .tns-item img{
+            width: 50%;
+        }
+        .prev{
+            left: 6%;
+        }
+        .next{
+            right: 6%;
+        }
+        .prev img, .next img{
+            width: 80%;
+        }
+    }
+
 }
 @media  (max-width: 767px){
     .header{
