@@ -80,4 +80,41 @@
         justify-content: center;
         width:100%;
     }
+    .catalog{
+        &__tab{
+           margin-bottom: 20px;
+        }
+        &__tabs{
+            flex-direction: column;
+        }
+    }
+    .testimonials{
+        &__item{
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+        }
+        &__text{
+            margin: 0;
+            padding: 0;
+            margin-top: 20px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .modal{
+        left: 46%;
+        &__close{
+            top: 5px;
+            right: 10px;
+        }
+    }
+    .footer{
+            &__info{
+                width: 100%;
+            }
+    }
 }
